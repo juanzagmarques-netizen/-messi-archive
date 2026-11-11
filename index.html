@@ -1,0 +1,265 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Messi Archive: estatísticas, clubes, títulos e recordes de Lionel Messi.">
+    <title>Messi Archive | O legado do camisa 10</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="cabecalho">
+    <div class="barra">
+        <a class="marca" href="#inicio">MESSI <span>ARCHIVE</span></a>
+
+        <nav aria-label="Navegação principal">
+            <a href="#estatisticas">Estatísticas</a>
+            <a href="#clubes">Clubes</a>
+            <a href="#titulos">Títulos</a>
+            <a href="#recordes">Recordes</a>
+            <a href="#fontes">Fontes</a>
+        </nav>
+    </div>
+</header>
+
+<main id="inicio">
+
+    <section class="hero">
+        <div class="hero-conteudo">
+            <span class="etiqueta">O LEGADO DO CAMISA 10</span>
+            <h1>LIONEL<br><span>MESSI</span></h1>
+            <p>Uma história escrita com futebol. Conheça os números, as conquistas e os recordes de um dos maiores jogadores de todos os tempos.</p>
+            <a class="botao-principal" href="#estatisticas">Explorar o acervo ↓</a>
+            <span class="hero-nota">Dados de referência: novembro de 2026</span>
+        </div>
+        <div class="hero-decoracao" aria-hidden="true">
+            <span>10</span>
+        </div>
+    </section>
+
+    <div class="faixa">
+        <span>ARGENTINA</span>
+        <span>BARCELONA</span>
+        <span>PARIS</span>
+        <span>MIAMI</span>
+        <span>HISTÓRIA</span>
+    </div>
+
+    <section class="secao" id="estatisticas">
+        <div class="secao-cabecalho">
+            <div>
+                <span class="sobretitulo">01 / OS NÚMEROS</span>
+                <h2>Estatísticas</h2>
+            </div>
+            <p>Carreira profissional por clubes e seleção principal.</p>
+        </div>
+
+        <div class="grade">
+            <button class="cartao" type="button" data-id="jogos">
+                <span class="cartao-icone">◷</span>
+                <span class="cartao-valor">1.185</span>
+                <span class="cartao-titulo">Jogos oficiais</span>
+                <span class="cartao-rodape">Ver distribuição por equipe <b>+</b></span>
+            </button>
+
+            <button class="cartao" type="button" data-id="gols">
+                <span class="cartao-icone">⚽</span>
+                <span class="cartao-valor">937</span>
+                <span class="cartao-titulo">Gols oficiais</span>
+                <span class="cartao-rodape">Ver gols por equipe <b>+</b></span>
+            </button>
+
+            <button class="cartao" type="button" data-id="assistencias">
+                <span class="cartao-icone">✦</span>
+                <span class="cartao-valor">409</span>
+                <span class="cartao-titulo">Assistências*</span>
+                <span class="cartao-rodape">Entender os critérios <b>+</b></span>
+            </button>
+        </div>
+
+        <p class="observacao">*Assistências segundo o critério estatístico apresentado pela base MessiStat. Outras bases registram totais diferentes. Números de carreira em 07/11/2026.</p>
+    </section>
+
+    <section class="secao" id="clubes">
+        <div class="secao-cabecalho">
+            <div>
+                <span class="sobretitulo">02 / A TRAJETÓRIA</span>
+                <h2>Clubes</h2>
+            </div>
+            <p>Três clubes. Diferentes capítulos de uma carreira histórica.</p>
+        </div>
+
+        <div class="grade">
+            <button class="cartao clube" type="button" data-id="barcelona">
+                <span class="cartao-numero">01</span>
+                <span class="cartao-titulo">FC Barcelona</span>
+                <span class="cartao-descricao">Espanha · 2004–2021</span>
+                <span class="cartao-destaque">672 gols</span>
+                <span class="cartao-rodape">Explorar trajetória <b>+</b></span>
+            </button>
+
+            <button class="cartao clube" type="button" data-id="psg">
+                <span class="cartao-numero">02</span>
+                <span class="cartao-titulo">Paris Saint-Germain</span>
+                <span class="cartao-descricao">França · 2021–2023</span>
+                <span class="cartao-destaque">2 Ligue 1</span>
+                <span class="cartao-rodape">Explorar trajetória <b>+</b></span>
+            </button>
+
+            <button class="cartao clube" type="button" data-id="miami">
+                <span class="cartao-numero">03</span>
+                <span class="cartao-titulo">Inter Miami</span>
+                <span class="cartao-descricao">Estados Unidos · desde 2023</span>
+                <span class="cartao-destaque">MLS 2025</span>
+                <span class="cartao-rodape">Explorar trajetória <b>+</b></span>
+            </button>
+        </div>
+    </section>
+
+    <section class="secao" id="titulos">
+        <div class="secao-cabecalho">
+            <div>
+                <span class="sobretitulo">03 / AS CONQUISTAS</span>
+                <h2>Títulos</h2>
+            </div>
+            <p>Os troféus que marcaram sua história.</p>
+        </div>
+
+        <div class="grade">
+            <button class="cartao escuro" type="button" data-id="mundial">
+                <span class="cartao-icone">★</span>
+                <span class="cartao-valor">2022</span>
+                <span class="cartao-titulo">Copa do Mundo</span>
+                <span class="cartao-descricao">Argentina · Catar</span>
+                <span class="cartao-rodape">Conhecer a conquista <b>+</b></span>
+            </button>
+
+            <button class="cartao escuro" type="button" data-id="champions">
+                <span class="cartao-icone">✦</span>
+                <span class="cartao-valor">4</span>
+                <span class="cartao-titulo">Champions League</span>
+                <span class="cartao-descricao">FC Barcelona</span>
+                <span class="cartao-rodape">Ver temporadas <b>+</b></span>
+            </button>
+
+            <button class="cartao escuro" type="button" data-id="copaamerica">
+                <span class="cartao-icone">★</span>
+                <span class="cartao-valor">2</span>
+                <span class="cartao-titulo">Copas América</span>
+                <span class="cartao-descricao">Argentina · 2021 e 2024</span>
+                <span class="cartao-rodape">Ver conquistas <b>+</b></span>
+            </button>
+
+            <button class="cartao escuro" type="button" data-id="laliga">
+                <span class="cartao-icone">✦</span>
+                <span class="cartao-valor">10</span>
+                <span class="cartao-titulo">La Ligas</span>
+                <span class="cartao-descricao">FC Barcelona</span>
+                <span class="cartao-rodape">Ver temporadas <b>+</b></span>
+            </button>
+
+            <button class="cartao escuro" type="button" data-id="coparei">
+                <span class="cartao-icone">✦</span>
+                <span class="cartao-valor">7</span>
+                <span class="cartao-titulo">Copas do Rei</span>
+                <span class="cartao-descricao">FC Barcelona</span>
+                <span class="cartao-rodape">Ver temporadas <b>+</b></span>
+            </button>
+
+            <button class="cartao escuro" type="button" data-id="miamititulos">
+                <span class="cartao-icone">★</span>
+                <span class="cartao-valor">4</span>
+                <span class="cartao-titulo">Títulos no Inter Miami</span>
+                <span class="cartao-descricao">2023–2026</span>
+                <span class="cartao-rodape">Ver competições <b>+</b></span>
+            </button>
+        </div>
+    </section>
+
+    <section class="secao" id="recordes">
+        <div class="secao-cabecalho">
+            <div>
+                <span class="sobretitulo">04 / MARCAS HISTÓRICAS</span>
+                <h2>Recordes</h2>
+            </div>
+            <p>Alguns dos feitos mais extraordinários de Messi.</p>
+        </div>
+
+        <div class="grade">
+            <button class="cartao recorde" type="button" data-id="bolasouro">
+                <span class="cartao-valor">8</span>
+                <span class="cartao-titulo">Bolas de Ouro</span>
+                <span class="cartao-descricao">Recorde de premiações</span>
+                <span class="cartao-rodape">Ver os anos <b>+</b></span>
+            </button>
+
+            <button class="cartao recorde" type="button" data-id="ano2012">
+                <span class="cartao-valor">91</span>
+                <span class="cartao-titulo">Gols em 2012</span>
+                <span class="cartao-descricao">Recorde em um ano civil</span>
+                <span class="cartao-rodape">Ver a distribuição <b>+</b></span>
+            </button>
+
+            <button class="cartao recorde" type="button" data-id="recordebarca">
+                <span class="cartao-valor">672</span>
+                <span class="cartao-titulo">Gols pelo Barcelona</span>
+                <span class="cartao-descricao">Maior artilheiro do clube</span>
+                <span class="cartao-rodape">Conhecer o recorde <b>+</b></span>
+            </button>
+
+            <button class="cartao recorde" type="button" data-id="laligarecorde">
+                <span class="cartao-valor">474</span>
+                <span class="cartao-titulo">Gols na La Liga</span>
+                <span class="cartao-descricao">Recorde histórico da competição</span>
+                <span class="cartao-rodape">Ver detalhes <b>+</b></span>
+            </button>
+
+            <button class="cartao recorde" type="button" data-id="temporada">
+                <span class="cartao-valor">50</span>
+                <span class="cartao-titulo">Gols numa La Liga</span>
+                <span class="cartao-descricao">Temporada 2011/12</span>
+                <span class="cartao-rodape">Ver detalhes <b>+</b></span>
+            </button>
+
+            <button class="cartao recorde" type="button" data-id="chuteiras">
+                <span class="cartao-valor">6</span>
+                <span class="cartao-titulo">Chuteiras de Ouro</span>
+                <span class="cartao-descricao">Artilharia das ligas europeias</span>
+                <span class="cartao-rodape">Ver temporadas <b>+</b></span>
+            </button>
+        </div>
+    </section>
+
+    <section class="secao fontes" id="fontes">
+        <div class="secao-cabecalho">
+            <div>
+                <span class="sobretitulo">05 / TRANSPARÊNCIA</span>
+                <h2>Fontes e metodologia</h2>
+            </div>
+        </div>
+
+        <p>Os dados históricos são apresentados com base em registros oficiais e bases estatísticas. Para partidas, gols e assistências, diferentes fontes podem adotar critérios distintos. Os totais de carreira apresentados têm referência em 7 de novembro de 2026 e devem ser revalidados periodicamente.</p>
+
+        <div class="lista-fontes">
+            <a href="https://messi.com/en/honours-and-achievements/" target="_blank" rel="noopener noreferrer">Site oficial de Lionel Messi — conquistas e recordes ↗</a>
+            <a href="https://www.fcbarcelona.com/en/news/2214377/leo-messi/amp" target="_blank" rel="noopener noreferrer">FC Barcelona — histórico e estatísticas ↗</a>
+            <a href="https://www.messistat.com/en" target="_blank" rel="noopener noreferrer">MessiStat — estatísticas de carreira ↗</a>
+            <a href="https://www.intermiamicf.com/" target="_blank" rel="noopener noreferrer">Inter Miami CF — site oficial ↗</a>
+        </div>
+    </section>
+
+</main>
+
+<footer class="rodape">
+    <div class="rodape-conteudo">
+        <strong>MESSI <span>ARCHIVE</span></strong>
+        <p>Projeto independente de fãs. Sem afiliação oficial com Lionel Messi, seus clubes ou patrocinadores.</p>
+        <small>Dados de referência: novembro de 2026.</small>
+    </div>
+</footer>
+
+</body>
+</html>
